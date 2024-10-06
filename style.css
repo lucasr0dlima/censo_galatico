@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Oswald", serif;
+}
+
+body {
+  background-color: #fdf5df;
+  margin: 0;
+}
+h1 {
+  color: #fdf5df;
+  font-size: 5vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #5ebec4;
+}
+
+#planets {
+  display: flex;
+  justify-content: space-between;
+  margin: 2vh 5vh;
+}
+
+#planets button {
+  height: 10vh;
+  width: 8vh;
+  font-size: 20px;
+  color: #5ebec4;
+}
