@@ -32,3 +32,17 @@ header {
   font-size: 20px;
   color: #5ebec4;
 }
+
+#planet_info {
+  display: flex;
+  margin: 10vh 30vh;
+  flex-direction: column;
+  background-color: #5ebec4;
+  color: rgb(58, 3, 58);
+}
+
+nav {
+  position: absolute;
+  right: 5vh;
+  top: 6vh;
+}
